@@ -24,7 +24,7 @@
 ## Visualizar e alterar o nome da Branch
 
     $ git branch
-    $ git checkout -b main
+    $ git branch -M main
 
 ## Adicionar o arquivo no INDEX
 
@@ -36,6 +36,11 @@
 
     $ git commit -m "mensagem descritiva do commit" 
 
+## Sincronizar com repositório remoto / github
+
+    $ git remote add origin https://github.com/jairoantonucci/learn_git.git
+
 ## Mudanças para o repositório Git remoto
 
-    git push origin <my_branch>
+    $ git push -u origin main
+    $ git push origin main
