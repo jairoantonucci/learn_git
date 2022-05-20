@@ -10,7 +10,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-
-    - name: Install AWS CLI 
-       run: echo "Hello GIT"
+      
+      run: echo "Hello GIT"
 
